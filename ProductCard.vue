@@ -18,7 +18,7 @@ function tambahKeKeranjang(nama) {
  <div class="bg-white rounded-xl shadow-md p-4 hover:shadow-lg transition">
  <img :src="gambar" :alt="nama" @click="bukaPreview(gambar)"
  class="w-full h-40 object-cover rounded-lg cursor-pointer" />
- <h3 class="text-lg font-semibold mt-2">{{ nama }}</h3>
+ <h3 class="text-lg font-semibold mt-2">{{ nama}}</h3>
  <p class="text-gray-600">Rp {{ harga.toLocaleString('id-ID') }}</p>
  <button @click="tambahKeKeranjang(nama)"
  class="bg-blue-600 text-white px-4 py-2 rounded-lg mt-2 w-full hover:bgblue-700">
